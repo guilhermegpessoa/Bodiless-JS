@@ -23,7 +23,7 @@ import { withBurgerMenuProvider, withBreadcrumbStore } from '@bodiless/navigatio
 import { withOidcProvider } from '@bodiless/oidc';
 import Header from './header';
 import Footer from './footer';
-import SeoHelmet from './meta';
+import { SeoHelmet, SiteInfoHelmet } from './meta';
 import { SocialShareHelmet } from '../SocialShare';
 import { asPageContainer, asYMargin } from '../Elements.token';
 import { asSiteHeader, asSiteFooter } from './token';
@@ -66,6 +66,7 @@ const BaseLayout: FC<LayoutProps> = ({ children, components }) => {
   return (
     <>
       <SeoHelmet />
+      <SiteInfoHelmet />
       <SiteProviders>
         <SocialShareHelmet />
         <SiteHeader />

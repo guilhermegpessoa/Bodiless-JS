@@ -21,6 +21,7 @@ import {
   withMetaHtml,
   asBodilessHelmet,
   withMetaForm,
+  withMetaSiteInfo,
 } from '@bodiless/components';
 import {
   useMenuOptionUI,
@@ -78,4 +79,11 @@ const SeoHelmet = flowRight(
   withMetaHtml('en', '', ''),
 )(Helmet);
 
-export default SeoHelmet;
+const SiteInfoHelmet = flowRight(
+  withMetaSiteInfo,
+)(Helmet);
+
+export {
+  SeoHelmet,
+  SiteInfoHelmet,
+};
