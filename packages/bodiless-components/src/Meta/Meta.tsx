@@ -106,6 +106,16 @@ const withMetaHtml = (
   );
 };
 
+// @TODO: remove placeholder after populating siteInfo content on build time.
+const siteInfo = { nodekey: undefined, defaultContent: 'placeholder' };
+const withMetaSiteInfo = withMetaStatic({
+  name: 'siteinfo',
+})(siteInfo.nodekey, siteInfo.defaultContent);
+
 export {
-  withMeta, withMetaHtml, withMetaStatic, withTitle,
+  withMeta,
+  withMetaHtml,
+  withMetaStatic,
+  withTitle,
+  withMetaSiteInfo,
 };
