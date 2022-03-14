@@ -56,7 +56,7 @@ API:
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:206](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L206)
+[bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:208](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L208)
 
 ## Properties
 
@@ -66,7 +66,7 @@ API:
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:202](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L202)
+[bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:204](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L204)
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:200](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L200)
+[bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:202](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L202)
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:204](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L204)
+[bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:206](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L206)
 
 ## Accessors
 
@@ -104,7 +104,7 @@ BreadcrumbStoreType.breadcrumbTrail
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:257](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L257)
+[bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:260](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L260)
 
 ## Methods
 
@@ -128,7 +128,7 @@ BreadcrumbStoreType.deleteItem
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:243](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L243)
+[bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:246](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L246)
 
 ___
 
@@ -146,7 +146,7 @@ BreadcrumbStoreType.export
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:265](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L265)
+[bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:268](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L268)
 
 ___
 
@@ -170,7 +170,7 @@ BreadcrumbStoreType.getItem
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:232](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L232)
+[bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:235](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L235)
 
 ___
 
@@ -188,7 +188,7 @@ BreadcrumbStoreType.getPagePath
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:253](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L253)
+[bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:256](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L256)
 
 ___
 
@@ -206,7 +206,7 @@ BreadcrumbStoreType.hasCurrentPageItem
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:269](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L269)
+[bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:272](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L272)
 
 ___
 
@@ -226,7 +226,7 @@ ___
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:226](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L226)
+[bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:229](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L229)
 
 ___
 
@@ -246,7 +246,7 @@ ___
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:214](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L214)
+[bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:217](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L217)
 
 ___
 
@@ -266,7 +266,7 @@ ___
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:210](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L210)
+[bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:213](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L213)
 
 ___
 
@@ -290,7 +290,7 @@ BreadcrumbStoreType.setItem
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:236](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L236)
+[bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:239](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L239)
 
 ___
 
@@ -304,7 +304,7 @@ ___
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:273](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L273)
+[bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:276](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L276)
 
 ___
 
@@ -318,4 +318,4 @@ ___
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:219](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L219)
+[bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:222](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L222)

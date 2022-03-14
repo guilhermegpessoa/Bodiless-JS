@@ -29,17 +29,13 @@
 - [asAccessibleMenu](modules.md#asaccessiblemenu)
 - [asAccessibleSubMenu](modules.md#asaccessiblesubmenu)
 - [asBreadcrumbSource](modules.md#asbreadcrumbsource)
+- [asMenuTitle](modules.md#asmenutitle)
 - [asSlideLeft](modules.md#asslideleft)
-- [asStylableBreadcrumbs](modules.md#asstylablebreadcrumbs)
-- [withAccessibleMenuAttr](modules.md#withaccessiblemenuattr)
-- [withAccessibleMenuInteractions](modules.md#withaccessiblemenuinteractions)
-- [withAccessibleSubMenuAttr](modules.md#withaccessiblesubmenuattr)
 - [withBreadcrumbFinalTrail](modules.md#withbreadcrumbfinaltrail)
 - [withBreadcrumbStartingTrail](modules.md#withbreadcrumbstartingtrail)
 - [withBreadcrumbStore](modules.md#withbreadcrumbstore)
 - [withBurgerMenuProvider](modules.md#withburgermenuprovider)
 - [withBurgerMenuWrapper](modules.md#withburgermenuwrapper)
-- [withDefaultMenuTitleEditors](modules.md#withdefaultmenutitleeditors)
 - [withoutBreadcrumbFinalTrail](modules.md#withoutbreadcrumbfinaltrail)
 - [withoutBreadcrumbStartingTrail](modules.md#withoutbreadcrumbstartingtrail)
 
@@ -51,7 +47,7 @@
 - [asBreadcrumb](modules.md#asbreadcrumb)
 - [asBreadcrumbs](modules.md#asbreadcrumbs)
 - [asBurgerMenu](modules.md#asburgermenu)
-- [asMenuTitle](modules.md#asmenutitle)
+- [asStylableBreadcrumbs](modules.md#asstylablebreadcrumbs)
 - [asTopNav](modules.md#astopnav)
 - [isMenuContextActive](modules.md#ismenucontextactive)
 - [isMenuContextNotActive](modules.md#ismenucontextnotactive)
@@ -69,10 +65,14 @@
 - [useIsSubmenuExpanded](modules.md#useissubmenuexpanded)
 - [useMenuContext](modules.md#usemenucontext)
 - [useSubmenuContext](modules.md#usesubmenucontext)
+- [withAccessibleMenuAttr](modules.md#withaccessiblemenuattr)
+- [withAccessibleMenuInteractions](modules.md#withaccessiblemenuinteractions)
+- [withAccessibleSubMenuAttr](modules.md#withaccessiblesubmenuattr)
 - [withBreadcrumbItemToken](modules.md#withbreadcrumbitemtoken)
 - [withBreadcrumbs](modules.md#withbreadcrumbs)
 - [withCardsSubMenu](modules.md#withcardssubmenu)
 - [withColumnSubMenu](modules.md#withcolumnsubmenu)
+- [withDefaultMenuTitleEditors](modules.md#withdefaultmenutitleeditors)
 - [withEditableFinalTrail](modules.md#witheditablefinaltrail)
 - [withEditableStartingTrail](modules.md#witheditablestartingtrail)
 - [withListSubMenu](modules.md#withlistsubmenu)
@@ -108,7 +108,7 @@
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:35](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L35)
+[bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:37](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L37)
 
 ___
 
@@ -125,7 +125,7 @@ ___
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx:52](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx#L52)
+[bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx:52](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx#L52)
 
 ___
 
@@ -137,17 +137,17 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `FinalTrail` | `ComponentType`<`any`\> |
-| `Item` | `ComponentType`<`HTMLProps`<`HTMLLIElement`\> & { `isCurrentPage`: `boolean` ; `position`: `number`  }\> |
-| `NavWrapper` | `ComponentType`<`HTMLProps`<`HTMLDivElement`\>\> |
-| `Separator` | `ComponentType`<`HTMLProps`<`HTMLSpanElement`\>\> |
-| `StartingTrail` | `ComponentType`<`any`\> |
-| `Title` | `ComponentType`<`any`\> |
-| `Wrapper` | `ComponentType`<`HTMLProps`<`HTMLUListElement`\>\> |
+| `FinalTrail` | `ComponentOrTag`<`any`\> |
+| `Item` | `ComponentOrTag`<{ `isCurrentPage`: `boolean` ; `position`: `number`  }\> |
+| `NavWrapper` | `ComponentOrTag`<`any`\> |
+| `Separator` | `ComponentOrTag`<`any`\> |
+| `StartingTrail` | `ComponentOrTag`<`any`\> |
+| `Title` | `ComponentOrTag`<`any`\> |
+| `Wrapper` | `ComponentOrTag`<`any`\> |
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/types.tsx:21](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/types.tsx#L21)
+[bodiless-navigation/src/Breadcrumbs/types.tsx:20](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/types.tsx#L20)
 
 ___
 
@@ -167,7 +167,7 @@ ___
 
 #### Defined in
 
-[bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx:20](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx#L20)
+[bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx:20](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx#L20)
 
 ___
 
@@ -177,7 +177,7 @@ ___
 
 #### Defined in
 
-[bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx:28](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx#L28)
+[bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx:28](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx#L28)
 
 ___
 
@@ -187,7 +187,7 @@ ___
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/types.tsx:84](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/types.tsx#L84)
+[bodiless-navigation/src/Breadcrumbs/types.tsx:83](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/types.tsx#L83)
 
 ___
 
@@ -204,7 +204,7 @@ ___
 
 #### Defined in
 
-[bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx:25](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx#L25)
+[bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx:25](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx#L25)
 
 ## Variables
 
@@ -216,7 +216,7 @@ Component that adds react context provider containing store to its children.
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/BreadcrumbStoreProvider.tsx:26](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStoreProvider.tsx#L26)
+[bodiless-navigation/src/Breadcrumbs/BreadcrumbStoreProvider.tsx:26](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStoreProvider.tsx#L26)
 
 ___
 
@@ -230,7 +230,7 @@ Clean component that renders breadcrumbs.
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:129](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L129)
+[bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:125](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L125)
 
 ___
 
@@ -240,7 +240,7 @@ ___
 
 #### Defined in
 
-[bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx:58](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx#L58)
+[bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx:58](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx#L58)
 
 ___
 
@@ -258,52 +258,52 @@ For this button to work both burger menu and toggler button should be inside Bur
 
 #### Defined in
 
-[bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx:106](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx#L106)
+[bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx:106](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx#L106)
 
 ___
 
 ### asAccessibleBreadcrumbs
 
-• **asAccessibleBreadcrumbs**: `Token`<{}, `Partial`<[`CleanBreadcrumbsProps`](modules.md#cleanbreadcrumbsprops)\>, {}\>
+• **asAccessibleBreadcrumbs**: `HOC`<{}, `Partial`<[`CleanBreadcrumbsProps`](modules.md#cleanbreadcrumbsprops)\>, {}\>
 
 Hoc to make breadcrumbs accessible
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/Breadcrumb.token.tsx:57](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumb.token.tsx#L57)
+[bodiless-navigation/src/Breadcrumbs/Breadcrumb.token.tsx:57](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumb.token.tsx#L57)
 
 ___
 
 ### asAccessibleMenu
 
-• **asAccessibleMenu**: `Token`<{}, {}, {}\>
+• **asAccessibleMenu**: `HOC`<{}, {}, {}\>
 
-Token that makes menu accessible.
+HOC that makes menu accessible.
 Wraps menu in Nav tag and adds keyboard interactions.
 
 #### Defined in
 
-[bodiless-navigation/src/Menu/asAccessibleMenu.tsx:239](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx#L239)
+[bodiless-navigation/src/Menu/asAccessibleMenu.tsx:239](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx#L239)
 
 ___
 
 ### asAccessibleSubMenu
 
-• **asAccessibleSubMenu**: `Token`<{}, {} & `object`, {}\>
+• **asAccessibleSubMenu**: `HOC`<{}, {} & `object`, {}\>
 
-Token that makes Sub Menu accessible.
+HOC that makes Sub Menu accessible.
 It adds Sub Menu indicator to the main menu items that have submenus
 and accessibility attributes to the submenu items.
 
 #### Defined in
 
-[bodiless-navigation/src/Menu/asAccessibleMenu.tsx:269](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx#L269)
+[bodiless-navigation/src/Menu/asAccessibleMenu.tsx:269](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx#L269)
 
 ___
 
 ### asBreadcrumbSource
 
-• **asBreadcrumbSource**: `Token`
+• **asBreadcrumbSource**: `HOC`
 
 Use this HOC to wrap a menu so that it can serve a source of data for breadcrumbs
 and menu trails. It creates a hidden version of the menu which is rendered only during
@@ -324,76 +324,40 @@ A version of the component which renders a hidden version of itself during SSR.
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx:137](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx#L137)
+[bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx:146](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx#L146)
+
+___
+
+### asMenuTitle
+
+• **asMenuTitle**: `HOC`<{}, `WithNodeProps`, `WithNodeProps`\>
+
+HOC that transforms component into MenuTitle with node and 'title' nodeKey.
+MenuTitle has Link and Title design keys. Can be applied to the Title design key.
+
+#### Defined in
+
+[bodiless-navigation/src/Menu/MenuTitles.tsx:96](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Menu/MenuTitles.tsx#L96)
 
 ___
 
 ### asSlideLeft
 
-• **asSlideLeft**: `Token`<{}, {}, {}\>
+• **asSlideLeft**: `HOC`<{}, {}, {}\>
 
-A Token that adds styles and transitions needed for a slide-in animation for the Burger menu.
+A HOC that adds styles and transitions needed for a slide-in animation for the Burger menu.
 
-**`returns`** Token that applies required styles for slide-in animation.
-
-#### Defined in
-
-[bodiless-navigation/src/BurgerMenu/BurgerMenu.token.tsx:80](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/BurgerMenu/BurgerMenu.token.tsx#L80)
-
-___
-
-### asStylableBreadcrumbs
-
-• **asStylableBreadcrumbs**: `Token`<{}, {}, {}\>
-
-Makes all Breadcrumb design components stylable.
+**`returns`** HOC that applies required styles for slide-in animation.
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/Breadcrumb.token.tsx:32](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumb.token.tsx#L32)
-
-___
-
-### withAccessibleMenuAttr
-
-• **withAccessibleMenuAttr**: `Token`<{}, {}, {}\>
-
-Token that adds an accessibility attributes to the menu
-
-#### Defined in
-
-[bodiless-navigation/src/Menu/asAccessibleMenu.tsx:207](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx#L207)
-
-___
-
-### withAccessibleMenuInteractions
-
-• **withAccessibleMenuInteractions**: `Token`<{}, {}, {}\>
-
-Token that wraps menu in the Nav tag and adds an ability
-to toggle submenus with a keyboard.
-
-#### Defined in
-
-[bodiless-navigation/src/Menu/asAccessibleMenu.tsx:228](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx#L228)
-
-___
-
-### withAccessibleSubMenuAttr
-
-• **withAccessibleSubMenuAttr**: `Token`<{}, {}, {}\>
-
-Token that adds an accessibility attributes to the Sub Menu.
-
-#### Defined in
-
-[bodiless-navigation/src/Menu/asAccessibleMenu.tsx:258](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx#L258)
+[bodiless-navigation/src/BurgerMenu/BurgerMenu.token.tsx:80](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/BurgerMenu/BurgerMenu.token.tsx#L80)
 
 ___
 
 ### withBreadcrumbFinalTrail
 
-• **withBreadcrumbFinalTrail**: `Injector`<`Partial`<`Pick`<`BreadcrumbsProps`, ``"hasFinalTrail"``\>\>, {}\>
+• **withBreadcrumbFinalTrail**: `Injector`<{ `hasFinalTrail`: `boolean` = true }, `object`\>
 
 HOC that enables rendering of final trail for a breadcrumb based component.
 
@@ -401,13 +365,13 @@ HOC that enables rendering of final trail for a breadcrumb based component.
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:151](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L151)
+[bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:147](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L147)
 
 ___
 
 ### withBreadcrumbStartingTrail
 
-• **withBreadcrumbStartingTrail**: `Injector`<`Partial`<`Pick`<`BreadcrumbsProps`, ``"hasStartingTrail"``\>\>, {}\>
+• **withBreadcrumbStartingTrail**: `Injector`<{ `hasStartingTrail`: `boolean` = true }, `object`\>
 
 HOC that enables rendering of starting trail for a breadcrumb based component.
 
@@ -415,13 +379,13 @@ HOC that enables rendering of starting trail for a breadcrumb based component.
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:135](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L135)
+[bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:131](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L131)
 
 ___
 
 ### withBreadcrumbStore
 
-• **withBreadcrumbStore**: `Token`
+• **withBreadcrumbStore**: `HOC`
 
 Copyright © 2020 Johnson & Johnson
 
@@ -437,23 +401,23 @@ limitations under the License.
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/withBreadcrumbs.tsx:26](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/withBreadcrumbs.tsx#L26)
+[bodiless-navigation/src/Breadcrumbs/withBreadcrumbs.tsx:26](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/withBreadcrumbs.tsx#L26)
 
 ___
 
 ### withBurgerMenuProvider
 
-• `Private` **withBurgerMenuProvider**: `Token`
+• `Private` **withBurgerMenuProvider**: `HOC`
 
 #### Defined in
 
-[bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx:54](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx#L54)
+[bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx:54](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx#L54)
 
 ___
 
 ### withBurgerMenuWrapper
 
-• **withBurgerMenuWrapper**: `Token`
+• **withBurgerMenuWrapper**: `HOC`
 
 HOC that wraps the supplied Component in the burger menu chrome.
 
@@ -463,26 +427,13 @@ HOC that wraps the supplied Component in the burger menu chrome.
 
 #### Defined in
 
-[bodiless-navigation/src/BurgerMenu/asBurgerMenu.tsx:98](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/BurgerMenu/asBurgerMenu.tsx#L98)
-
-___
-
-### withDefaultMenuTitleEditors
-
-• **withDefaultMenuTitleEditors**: `Token`<{}, {}, {}\>
-
-Token that adds a default Editors to the menu Title and Link.
-Transforms Link into Editable Bodiless Link Toggle and Title to Editable.
-
-#### Defined in
-
-[bodiless-navigation/src/Menu/MenuTitles.tsx:72](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Menu/MenuTitles.tsx#L72)
+[bodiless-navigation/src/BurgerMenu/asBurgerMenu.tsx:98](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/BurgerMenu/asBurgerMenu.tsx#L98)
 
 ___
 
 ### withoutBreadcrumbFinalTrail
 
-• **withoutBreadcrumbFinalTrail**: `Injector`<`Partial`<`Pick`<`BreadcrumbsProps`, ``"hasFinalTrail"``\>\>, {}\>
+• **withoutBreadcrumbFinalTrail**: `Injector`<{ `hasFinalTrail`: `boolean` = false }, `object`\>
 
 HOC that disables rendering of final trail for a breadcrumb based component.
 
@@ -490,13 +441,13 @@ HOC that disables rendering of final trail for a breadcrumb based component.
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:159](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L159)
+[bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:155](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L155)
 
 ___
 
 ### withoutBreadcrumbStartingTrail
 
-• **withoutBreadcrumbStartingTrail**: `Injector`<`Partial`<`Pick`<`BreadcrumbsProps`, ``"hasStartingTrail"``\>\>, {}\>
+• **withoutBreadcrumbStartingTrail**: `Injector`<{ `hasStartingTrail`: `boolean` = false }, `object`\>
 
 HOC that disables rendering of starting trail for a breadcrumb based component.
 
@@ -504,7 +455,7 @@ HOC that disables rendering of starting trail for a breadcrumb based component.
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:143](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L143)
+[bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:139](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L139)
 
 ## Functions
 
@@ -531,7 +482,7 @@ Burger Menu default toggler component.
 
 #### Defined in
 
-[bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx:92](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx#L92)
+[bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx:92](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx#L92)
 
 ___
 
@@ -575,13 +526,13 @@ ___
 
 #### Defined in
 
-[bodiless-navigation/src/Menu/asAccessibleMenu.tsx:85](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx#L85)
+[bodiless-navigation/src/Menu/asAccessibleMenu.tsx:85](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx#L85)
 
 ___
 
 ### asBodilessMenu
 
-▸ `Const` **asBodilessMenu**<`P`\>(`nodeKeys?`, `defaultData?`, `useOverrides?`): `Token`<`unknown`, `Omit`<`ListBaseProps`, ``"components"``\> & `Partial`<`WithNodeProps`\> & `DesignableProps`<`ListComponents`\> & `WithNodeProps`, {}\>
+▸ `Const` **asBodilessMenu**<`P`\>(`nodeKeys?`, `defaultData?`, `useOverrides?`): `HOC`<`unknown`, `Omit`<`ListBaseProps`, ``"components"``\> & `Partial`<`WithNodeProps`\> & `DesignableProps`<`ListComponents`\> & `WithNodeProps`, {}\>
 
 Bodiless HOC generator which creates the basic structure of the Bodiless Menu.
 
@@ -604,13 +555,13 @@ a site's main menu, a burger menu and breadcrumbs.
 
 #### Returns
 
-`Token`<`unknown`, `Omit`<`ListBaseProps`, ``"components"``\> & `Partial`<`WithNodeProps`\> & `DesignableProps`<`ListComponents`\> & `WithNodeProps`, {}\>
+`HOC`<`unknown`, `Omit`<`ListBaseProps`, ``"components"``\> & `Partial`<`WithNodeProps`\> & `DesignableProps`<`ListComponents`\> & `WithNodeProps`, {}\>
 
 HOC which creates a basic mega menu list.
 
 #### Defined in
 
-[bodiless-navigation/src/Menu/asBodilessMenu.ts:46](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Menu/asBodilessMenu.ts#L46)
+[bodiless-navigation/src/Menu/asBodilessMenu.ts:46](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Menu/asBodilessMenu.ts#L46)
 
 ___
 
@@ -637,7 +588,7 @@ An HOC which defines the wrapped component as a breadcrumb.
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx:67](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx#L67)
+[bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx:67](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx#L67)
 
 ___
 
@@ -659,13 +610,13 @@ HOC that adds breadcrumb props retrieved from breadcrumb store.
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:166](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L166)
+[bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:162](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L162)
 
 ___
 
 ### asBurgerMenu
 
-▸ `Const` **asBurgerMenu**(...`keys`): `Token`<{}, {}, {}\>
+▸ `Const` **asBurgerMenu**(...`keys`): `HOC`<{}, {}, {}\>
 
 Helper which allows specifying which submenu types are configured
 by default for the Burger Menu. Transforms selected submenus into accordions.
@@ -678,42 +629,47 @@ by default for the Burger Menu. Transforms selected submenus into accordions.
 
 #### Returns
 
-`Token`<{}, {}, {}\>
+`HOC`<{}, {}, {}\>
 
-Token that applies default burger menu styles based on provided keys.
+HOC that applies default burger menu styles based on provided keys.
 
 #### Defined in
 
-[bodiless-navigation/src/BurgerMenu/asBurgerMenu.tsx:113](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/BurgerMenu/asBurgerMenu.tsx#L113)
+[bodiless-navigation/src/BurgerMenu/asBurgerMenu.tsx:113](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/BurgerMenu/asBurgerMenu.tsx#L113)
 
 ___
 
-### asMenuTitle
+### asStylableBreadcrumbs
 
-▸ `Const` **asMenuTitle**(...`args`): `any`
+▸ `Const` **asStylableBreadcrumbs**<`P`\>(`C`): `ComponentWithMeta`<`PP`<`P`, {}, {}\>\>
 
-Token that transforms component into MenuTitle with node and 'title' nodeKey.
-MenuTitle has Link and Title design keys. Can be applied to the Title design key.
+Makes all Breadcrumb design components stylable.
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `P` | extends `Object` |
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `...args` | `any`[] |
+| `C` | `ComponentOrTag`<`P`\> |
 
 #### Returns
 
-`any`
+`ComponentWithMeta`<`PP`<`P`, {}, {}\>\>
 
 #### Defined in
 
-[bodiless-navigation/src/Menu/MenuTitles.tsx:97](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Menu/MenuTitles.tsx#L97)
+[bodiless-navigation/src/Breadcrumbs/Breadcrumb.token.tsx:32](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumb.token.tsx#L32)
 
 ___
 
 ### asTopNav
 
-▸ `Const` **asTopNav**(...`keys`): `Token`<{}, {}, {}\>
+▸ `Const` **asTopNav**(...`keys`): `HOC`<{}, {}, {}\>
 
 Helper which allows specifying which submenu types should have default navigation styling added.
 
@@ -725,13 +681,13 @@ Helper which allows specifying which submenu types should have default navigatio
 
 #### Returns
 
-`Token`<{}, {}, {}\>
+`HOC`<{}, {}, {}\>
 
-Token that applies default top navigation styles based on provided keys.
+HOC that applies default top navigation styles based on provided keys.
 
 #### Defined in
 
-[bodiless-navigation/src/Menu/Menu.token.tsx:149](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Menu/Menu.token.tsx#L149)
+[bodiless-navigation/src/Menu/Menu.token.tsx:149](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Menu/Menu.token.tsx#L149)
 
 ___
 
@@ -745,7 +701,7 @@ ___
 
 #### Defined in
 
-[bodiless-navigation/src/Menu/Menu.token.tsx:40](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Menu/Menu.token.tsx#L40)
+[bodiless-navigation/src/Menu/Menu.token.tsx:40](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Menu/Menu.token.tsx#L40)
 
 ___
 
@@ -759,7 +715,7 @@ ___
 
 #### Defined in
 
-[bodiless-navigation/src/Menu/Menu.token.tsx:45](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Menu/Menu.token.tsx#L45)
+[bodiless-navigation/src/Menu/Menu.token.tsx:45](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Menu/Menu.token.tsx#L45)
 
 ___
 
@@ -775,7 +731,7 @@ A Hook to get the current Breadcrumb Item context values.
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx:31](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx#L31)
+[bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx:31](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx#L31)
 
 ___
 
@@ -791,7 +747,7 @@ React hook to get store.
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/BreadcrumbStoreProvider.tsx:33](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStoreProvider.tsx#L33)
+[bodiless-navigation/src/Breadcrumbs/BreadcrumbStoreProvider.tsx:33](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStoreProvider.tsx#L33)
 
 ___
 
@@ -809,7 +765,7 @@ The current Burger Menu `isVisible` and `toggle()` context values.
 
 #### Defined in
 
-[bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx:42](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx#L42)
+[bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx:42](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx#L42)
 
 ___
 
@@ -832,7 +788,7 @@ true if the item is in the active trail, false otherwise.
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx:44](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx#L44)
+[bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx:44](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx#L44)
 
 ___
 
@@ -852,7 +808,7 @@ ___
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/hooks.ts:17](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/hooks.ts#L17)
+[bodiless-navigation/src/Breadcrumbs/hooks.ts:17](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/hooks.ts#L17)
 
 ___
 
@@ -870,7 +826,7 @@ true if the Burger Menu is hidden, false otherwise.
 
 #### Defined in
 
-[bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx:94](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx#L94)
+[bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx:94](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx#L94)
 
 ___
 
@@ -888,7 +844,7 @@ true if the Burger Menu is visible, false otherwise.
 
 #### Defined in
 
-[bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx:74](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx#L74)
+[bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx:74](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx#L74)
 
 ___
 
@@ -909,7 +865,7 @@ true if the Burger Menu is hidden and all animations are completed.
 
 #### Defined in
 
-[bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx:84](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx#L84)
+[bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx:84](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx#L84)
 
 ___
 
@@ -923,7 +879,7 @@ ___
 
 #### Defined in
 
-[bodiless-navigation/src/Menu/Menu.token.tsx:74](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Menu/Menu.token.tsx#L74)
+[bodiless-navigation/src/Menu/Menu.token.tsx:74](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Menu/Menu.token.tsx#L74)
 
 ___
 
@@ -943,7 +899,7 @@ ___
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/hooks.ts:21](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/hooks.ts#L21)
+[bodiless-navigation/src/Breadcrumbs/hooks.ts:21](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/hooks.ts#L21)
 
 ___
 
@@ -961,7 +917,7 @@ true if context for any of Items is active, false otherwise.
 
 #### Defined in
 
-[bodiless-navigation/src/Menu/withMenuContext.tsx:76](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Menu/withMenuContext.tsx#L76)
+[bodiless-navigation/src/Menu/withMenuContext.tsx:76](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Menu/withMenuContext.tsx#L76)
 
 ___
 
@@ -975,7 +931,7 @@ ___
 
 #### Defined in
 
-[bodiless-navigation/src/Menu/Menu.token.tsx:67](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Menu/Menu.token.tsx#L67)
+[bodiless-navigation/src/Menu/Menu.token.tsx:67](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Menu/Menu.token.tsx#L67)
 
 ___
 
@@ -992,7 +948,7 @@ and a setter to set active submenu.
 
 #### Defined in
 
-[bodiless-navigation/src/Menu/withMenuContext.tsx:38](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Menu/withMenuContext.tsx#L38)
+[bodiless-navigation/src/Menu/withMenuContext.tsx:38](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Menu/withMenuContext.tsx#L38)
 
 ___
 
@@ -1006,13 +962,98 @@ ___
 
 #### Defined in
 
-[bodiless-navigation/src/Menu/withMenuItemContext.tsx:42](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Menu/withMenuItemContext.tsx#L42)
+[bodiless-navigation/src/Menu/withMenuItemContext.tsx:42](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Menu/withMenuItemContext.tsx#L42)
+
+___
+
+### withAccessibleMenuAttr
+
+▸ `Const` **withAccessibleMenuAttr**<`P`\>(`C`): `ComponentWithMeta`<`PP`<`P`, {}, {}\>\>
+
+HOC that adds an accessibility attributes to the menu
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `P` | extends `Object` |
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `C` | `ComponentOrTag`<`P`\> |
+
+#### Returns
+
+`ComponentWithMeta`<`PP`<`P`, {}, {}\>\>
+
+#### Defined in
+
+[bodiless-navigation/src/Menu/asAccessibleMenu.tsx:207](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx#L207)
+
+___
+
+### withAccessibleMenuInteractions
+
+▸ `Const` **withAccessibleMenuInteractions**<`P`\>(`C`): `ComponentWithMeta`<`PP`<`P`, {}, {}\>\>
+
+HOC that wraps menu in the Nav tag and adds an ability
+to toggle submenus with a keyboard.
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `P` | extends `Object` |
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `C` | `ComponentOrTag`<`P`\> |
+
+#### Returns
+
+`ComponentWithMeta`<`PP`<`P`, {}, {}\>\>
+
+#### Defined in
+
+[bodiless-navigation/src/Menu/asAccessibleMenu.tsx:228](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx#L228)
+
+___
+
+### withAccessibleSubMenuAttr
+
+▸ `Const` **withAccessibleSubMenuAttr**<`P`\>(`C`): `ComponentWithMeta`<`PP`<`P`, {}, {}\>\>
+
+HOC that adds an accessibility attributes to the Sub Menu.
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `P` | extends `Object` |
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `C` | `ComponentOrTag`<`P`\> |
+
+#### Returns
+
+`ComponentWithMeta`<`PP`<`P`, {}, {}\>\>
+
+#### Defined in
+
+[bodiless-navigation/src/Menu/asAccessibleMenu.tsx:258](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx#L258)
 
 ___
 
 ### withBreadcrumbItemToken
 
-▸ `Const` **withBreadcrumbItemToken**(...`tokenDefs`): `Token`<{}, {}, {}\>
+▸ `Const` **withBreadcrumbItemToken**(...`tokenDefs`): `HOCBase`<{}, {}, {}\>
 
 Applies supplied tokenDefs to all breadcrumb items.
 
@@ -1024,13 +1065,13 @@ Applies supplied tokenDefs to all breadcrumb items.
 
 #### Returns
 
-`Token`<{}, {}, {}\>
+`HOCBase`<{}, {}, {}\>
 
-Token - a token that applies provided tokenDefs to all breadcrumb items.
+HOC - a token that applies provided tokenDefs to all breadcrumb items.
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/Breadcrumb.token.tsx:47](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumb.token.tsx#L47)
+[bodiless-navigation/src/Breadcrumbs/Breadcrumb.token.tsx:47](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumb.token.tsx#L47)
 
 ___
 
@@ -1052,13 +1093,13 @@ HOC that adds breadcrumb store and renders breadcrumbs.
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/withBreadcrumbs.tsx:45](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/withBreadcrumbs.tsx#L45)
+[bodiless-navigation/src/Breadcrumbs/withBreadcrumbs.tsx:45](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/withBreadcrumbs.tsx#L45)
 
 ___
 
 ### withCardsSubMenu
 
-▸ `Const` **withCardsSubMenu**(`withTitleDesign?`): `Token`<{}, {}, {}\>
+▸ `Const` **withCardsSubMenu**(`withTitleDesign?`): `HOCBase`<{}, {}, {}\>
 
 Helper which can be used to add a Cards submenu option to the menu.
 
@@ -1066,21 +1107,21 @@ Helper which can be used to add a Cards submenu option to the menu.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `withTitleDesign?` | `HOC`<{}, {}, {}\> \| `Token`<{}, {}, {}\> | optional token which will be applied to the sublist title. |
+| `withTitleDesign?` | `HOC`<{}, {}, {}\> | optional token which will be applied to the sublist title. |
 
 #### Returns
 
-`Token`<{}, {}, {}\>
+`HOCBase`<{}, {}, {}\>
 
 #### Defined in
 
-[bodiless-navigation/src/Menu/withSubMenu.tsx:77](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Menu/withSubMenu.tsx#L77)
+[bodiless-navigation/src/Menu/withSubMenu.tsx:77](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Menu/withSubMenu.tsx#L77)
 
 ___
 
 ### withColumnSubMenu
 
-▸ `Const` **withColumnSubMenu**(`withTitleDesign?`): `Token`<{}, {}, {}\>
+▸ `Const` **withColumnSubMenu**(`withTitleDesign?`): `HOCBase`<{}, {}, {}\>
 
 Helper which can be used to add a Columns submenu option to the menu.
 
@@ -1088,21 +1129,50 @@ Helper which can be used to add a Columns submenu option to the menu.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `withTitleDesign?` | `HOC`<{}, {}, {}\> \| `Token`<{}, {}, {}\> | optional token which will be applied to the sublist title. |
+| `withTitleDesign?` | `HOC`<{}, {}, {}\> | optional token which will be applied to the sublist title. |
 
 #### Returns
 
-`Token`<{}, {}, {}\>
+`HOCBase`<{}, {}, {}\>
 
 #### Defined in
 
-[bodiless-navigation/src/Menu/withSubMenu.tsx:89](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Menu/withSubMenu.tsx#L89)
+[bodiless-navigation/src/Menu/withSubMenu.tsx:89](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Menu/withSubMenu.tsx#L89)
+
+___
+
+### withDefaultMenuTitleEditors
+
+▸ `Const` **withDefaultMenuTitleEditors**<`P`\>(`C`): `ComponentWithMeta`<`PP`<`P`, {}, {}\>\>
+
+HOC that adds a default Editors to the menu Title and Link.
+Transforms Link into Editable Bodiless Link Toggle and Title to Editable.
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `P` | extends `Object` |
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `C` | `ComponentOrTag`<`P`\> |
+
+#### Returns
+
+`ComponentWithMeta`<`PP`<`P`, {}, {}\>\>
+
+#### Defined in
+
+[bodiless-navigation/src/Menu/MenuTitles.tsx:71](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Menu/MenuTitles.tsx#L71)
 
 ___
 
 ### withEditableFinalTrail
 
-▸ `Const` **withEditableFinalTrail**(`withTitleEditors?`, `nodeKeys?`): `Token`<`unknown`, {}, `Partial`<`Pick`<`BreadcrumbsProps`, ``"hasFinalTrail"``\>\>\>
+▸ `Const` **withEditableFinalTrail**(`withTitleEditors?`, `nodeKeys?`): `HOC`<`unknown`, {}, { `hasFinalTrail`: `boolean` = true }\>
 
 Enables rendering of the final trail for a Breadcrumb component with a provided Editors.
 Uses `withDefaultMenuTitleEditors` by default.
@@ -1111,24 +1181,24 @@ Uses `withDefaultMenuTitleEditors` by default.
 
 | Name | Type | Default value | Description |
 | :------ | :------ | :------ | :------ |
-| `withTitleEditors` | `Token`<{}, {}, {}\> | `withDefaultMenuTitleEditors` | Editors token that will be applied to the Title key of the FinalTrail component. |
+| `withTitleEditors` | `HOC`<{}, {}, {}\> | `withDefaultMenuTitleEditors` | Editors token that will be applied to the Title key of the FinalTrail component. |
 | `nodeKeys?` | `WithNodeKeyProps` | `undefined` | Optional nodeKeys of type `WithNodeKeyProps` that will be applied to the FinalTrail. |
 
 #### Returns
 
-`Token`<`unknown`, {}, `Partial`<`Pick`<`BreadcrumbsProps`, ``"hasFinalTrail"``\>\>\>
+`HOC`<`unknown`, {}, { `hasFinalTrail`: `boolean` = true }\>
 
-Token that adds final trail with provided Title Editors and nodeKeys.
+HOC that adds final trail with provided Title Editors and nodeKeys.
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/withEditableTrail.tsx:84](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/withEditableTrail.tsx#L84)
+[bodiless-navigation/src/Breadcrumbs/withEditableTrail.tsx:84](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/withEditableTrail.tsx#L84)
 
 ___
 
 ### withEditableStartingTrail
 
-▸ `Const` **withEditableStartingTrail**(`withTitleEditors?`, `nodeKeys?`): `Token`<`unknown`, {}, `Partial`<`Pick`<`BreadcrumbsProps`, ``"hasStartingTrail"``\>\>\>
+▸ `Const` **withEditableStartingTrail**(`withTitleEditors?`, `nodeKeys?`): `HOC`<`unknown`, {}, { `hasStartingTrail`: `boolean` = true }\>
 
 Enables rendering of the starting trail for a Breadcrumb component with a provided Editors.
 Uses `withDefaultMenuTitleEditors` by default, pre-configured with a link to the home page.
@@ -1137,24 +1207,24 @@ Uses `withDefaultMenuTitleEditors` by default, pre-configured with a link to the
 
 | Name | Type | Default value | Description |
 | :------ | :------ | :------ | :------ |
-| `withTitleEditors` | `Token`<{}, {}, {}\> | `withDefaultMenuTitleEditors` | Editors token that will be applied to the Title key of the StartingTrail component. |
+| `withTitleEditors` | `HOC`<{}, {}, {}\> | `withDefaultMenuTitleEditors` | Editors token that will be applied to the Title key of the StartingTrail component. |
 | `nodeKeys?` | `WithNodeKeyProps` | `undefined` | Optional nodeKeys of type `WithNodeKeyProps` that will be applied to the StartingTrail. |
 
 #### Returns
 
-`Token`<`unknown`, {}, `Partial`<`Pick`<`BreadcrumbsProps`, ``"hasStartingTrail"``\>\>\>
+`HOC`<`unknown`, {}, { `hasStartingTrail`: `boolean` = true }\>
 
-Token that adds starting trail with provided Title Editors and nodeKeys.
+HOC that adds starting trail with provided Title Editors and nodeKeys.
 
 #### Defined in
 
-[bodiless-navigation/src/Breadcrumbs/withEditableTrail.tsx:56](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Breadcrumbs/withEditableTrail.tsx#L56)
+[bodiless-navigation/src/Breadcrumbs/withEditableTrail.tsx:56](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Breadcrumbs/withEditableTrail.tsx#L56)
 
 ___
 
 ### withListSubMenu
 
-▸ `Const` **withListSubMenu**(`withTitleDesign?`): `Token`<{}, {}, {}\>
+▸ `Const` **withListSubMenu**(`withTitleDesign?`): `HOCBase`<{}, {}, {}\>
 
 Helper which can be used to add a List submenu option to the menu.
 
@@ -1162,21 +1232,21 @@ Helper which can be used to add a List submenu option to the menu.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `withTitleDesign?` | `HOC`<{}, {}, {}\> \| `Token`<{}, {}, {}\> | optional token which will be applied to the sublist title. |
+| `withTitleDesign?` | `HOC`<{}, {}, {}\> | optional token which will be applied to the sublist title. |
 
 #### Returns
 
-`Token`<{}, {}, {}\>
+`HOCBase`<{}, {}, {}\>
 
 #### Defined in
 
-[bodiless-navigation/src/Menu/withSubMenu.tsx:65](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Menu/withSubMenu.tsx#L65)
+[bodiless-navigation/src/Menu/withSubMenu.tsx:65](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Menu/withSubMenu.tsx#L65)
 
 ___
 
 ### withMenuDesign
 
-▸ `Const` **withMenuDesign**(`keys?`, `depths?`): (...`tokenDefs`: `TokenDef`<{}, {}, {}\>[]) => `Token`<{}, {}, {}\>
+▸ `Const` **withMenuDesign**(`keys?`, `depths?`): (...`tokenDefs`: `TokenDef`<{}, {}, {}\>[]) => `HOC`<{}, {}, {}\>
 
 Helper which makes it easier to target a particular type of submenu.
 
@@ -1213,7 +1283,7 @@ withMenuDesign(undefined, 2) -- Applies tokens to all submenus of level 2.
 
 Desigh token that applies supplied list of tokens to the provided design keys.
 
-▸ (...`tokenDefs`): `Token`<{}, {}, {}\>
+▸ (...`tokenDefs`): `HOC`<{}, {}, {}\>
 
 ##### Parameters
 
@@ -1223,19 +1293,19 @@ Desigh token that applies supplied list of tokens to the provided design keys.
 
 ##### Returns
 
-`Token`<{}, {}, {}\>
+`HOC`<{}, {}, {}\>
 
 #### Defined in
 
-[bodiless-navigation/src/Menu/withMenuDesign.tsx:63](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Menu/withMenuDesign.tsx#L63)
+[bodiless-navigation/src/Menu/withMenuDesign.tsx:63](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Menu/withMenuDesign.tsx#L63)
 
 ___
 
 ### withMenuTitleEditors
 
-▸ `Const` **withMenuTitleEditors**<`P`\>(`withTitleEditors?`, ...`tokenDefs`): `Token`<{}, {}, {}\>
+▸ `Const` **withMenuTitleEditors**<`P`\>(`withTitleEditors?`, ...`tokenDefs`): `HOCBase`<{}, {}, {}\>
 
-A helper to apply provided `withTitleEditors` Token to the Title menu key.
+A helper to apply provided `withTitleEditors` HOC to the Title menu key.
 Applies `withDefaultMenuTitleEditors` token by default.
 
 #### Type parameters
@@ -1248,22 +1318,22 @@ Applies `withDefaultMenuTitleEditors` token by default.
 
 | Name | Type | Default value | Description |
 | :------ | :------ | :------ | :------ |
-| `withTitleEditors` | `Token`<{}, {}, {}\> | `withDefaultMenuTitleEditors` | Token that will be applied to the Title key |
+| `withTitleEditors` | `HOC`<{}, {}, {}\> | `withDefaultMenuTitleEditors` | HOC that will be applied to the Title key |
 | `...tokenDefs` | `TokenDef`<{}, {}, {}\>[] | `undefined` | - |
 
 #### Returns
 
-`Token`<{}, {}, {}\>
+`HOCBase`<{}, {}, {}\>
 
 #### Defined in
 
-[bodiless-navigation/src/Menu/MenuTitles.tsx:86](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/Menu/MenuTitles.tsx#L86)
+[bodiless-navigation/src/Menu/MenuTitles.tsx:85](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/Menu/MenuTitles.tsx#L85)
 
 ___
 
 ### withOverviewLink
 
-▸ `Const` **withOverviewLink**(`overviewText?`, `nodeKeys?`): `Token`<`unknown`, `object` & { `content?`: {}  }, `Partial`<{ `prependItems`: `string`[]  }\>\>
+▸ `Const` **withOverviewLink**(`overviewText?`, `nodeKeys?`): `HOC`<`unknown`, `object` & { `content?`: {}  }, { `prependItems`: `string`[]  }\>
 
 HOC that adds an overview link to a burger menu sublist.  The overview link
 renders specified text with a link to the destination of the parent menu
@@ -1284,10 +1354,10 @@ This HOC has to be applied on the List level (List, Cards or Column submenus).
 
 #### Returns
 
-`Token`<`unknown`, `object` & { `content?`: {}  }, `Partial`<{ `prependItems`: `string`[]  }\>\>
+`HOC`<`unknown`, `object` & { `content?`: {}  }, { `prependItems`: `string`[]  }\>
 
-Token that adds an OverviewLink to the menu list.
+HOC that adds an OverviewLink to the menu list.
 
 #### Defined in
 
-[bodiless-navigation/src/BurgerMenu/asBurgerMenu.tsx:45](https://github.com/guilhermegpessoa/Bodiless-JS/blob/dc380f08/packages/bodiless-navigation/src/BurgerMenu/asBurgerMenu.tsx#L45)
+[bodiless-navigation/src/BurgerMenu/asBurgerMenu.tsx:45](https://github.com/guilhermegpessoa/Bodiless-JS/blob/be147f11/packages/bodiless-navigation/src/BurgerMenu/asBurgerMenu.tsx#L45)
