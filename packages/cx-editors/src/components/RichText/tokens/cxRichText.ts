@@ -91,7 +91,7 @@ const Default = asCxTokenSpec()({
   Content: {
     _: addProps({ placeholder: 'Placeholder' }),
   },
-  Components: {
+  Theme: {
     paragraph: cxElement.Body,
     Bold: cxElement.Bold,
     Underline: cxElement.Underline,
@@ -114,27 +114,24 @@ const Default = asCxTokenSpec()({
 const Basic = asCxTokenSpec()({
   ...Default,
   Core: pick(Default.Core, 'paragraph', 'Bold', 'Underline', 'Link', 'SuperScript'),
-  Components: pick(Default.Components, 'Bold', 'Underline', 'SuperScript'),
+  Theme: pick(Default.Theme, 'Bold', 'Underline', 'SuperScript'),
 });
 
 const Copyright = asCxTokenSpec()({
   ...Basic,
-  Spacing: {
-    paragraph: 'mx-9 py-9 md:mx-0 md:mb-4 md:p-0 lg:mb-0 lg:py-0',
-  },
   Theme: {
+    ...Basic.Theme,
     paragraph: as(
       cxColor.TextPrimaryFooterCopy,
       cxFontSize.XS,
       cxTextDecoration.Normal,
-      'border-white-400 border-t border-b md:border-0',
     ),
     Link: as(
       cxColor.TextPrimaryFooterCopy,
+      cxColor.TextPrimaryInteractive,
       cxFontSize.XS,
       cxTextDecoration.Bold,
       cxTextDecoration.Underline,
-      'text-cx-primary-interactive',
     ),
   },
   Content: {
